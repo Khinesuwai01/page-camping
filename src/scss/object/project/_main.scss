@@ -1,0 +1,35 @@
+.p-destivities {
+    margin-top: 200px;
+    .c-title {
+        padding: 108px;
+        margin: 10px;
+        text-align: center;
+        .c-title__circle {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            position: relative;
+            z-index: 1;
+            background-color: $btncolor;
+            margin: 0 auto;
+            top: 0;
+            right: 0;
+            
+            }
+            &__inner {
+                position: absolute;
+                z-index: 2;
+                left: 0px;
+                top: 0;
+                right: 0;
+            }
+            h3 {
+                font-family: "Archivo", sans-serif;
+                font-size: 40px;
+                font-weight: 900;
+                padding: 45px;
+                line-height: 50px;
+            }
+
+        }
+}

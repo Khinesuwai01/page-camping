@@ -1,39 +1,18 @@
 /* normalize.css
 ------------------------ */
 @import 'normalize.css/normalize.css';
-
 /* ==========================================================================
   Foundation
 ========================================================================== */
-
 /* ==========================================================================
   Foundation
 ========================================================================== */
-
 /* ==========================================================================
   Project
 ========================================================================== */
-
 /* ==========================================================================
   Component
 ========================================================================== */
-
-// Foundation
-@import 'object/utility/mixin.scss';
-@import 'foundation/color';
-@import 'foundation/font';
-@import 'foundation/reset';
-
-//Layout
-@import 'layout/footer';
-@import 'layout/header';
-@import 'layout/layout';
-
-// Component
-@import 'object/component/form.scss';
-
-// Project
-@import 'object/project/banner-info';
-@import 'object/project/main';
-@import 'object/project/nav-menu';
-@import 'object/project/services';
+h1 {
+  color: red;
+}/*# sourceMappingURL=style.css.map */
